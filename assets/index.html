@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/lightslider.css">
+        
+        <title>Sidebar sub menus</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">PetWear</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Início</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Poplares</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Categorias</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Gatos</a>
+                                <a href="#" class="collapse__sublink">Cachorros</a>
+                                <a href="#" class="collapse__sublink">Roedores</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Fantasias</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Acessórios</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Coleiras</a>
+                                <a href="#" class="collapse__sublink">Gravatas</a>
+                                <a href="#" class="collapse__sublink">Tiara</a>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Entrar</span>
+                </a>
+            </nav>
+        </div>
+
+
+    <!-- FRETE -->
+    <div class="frete">
+        <i class='bx bxs-truck truck'></i>
+        <h2>frete grátis para compras acima de R$ 50,00</h2>
+    </div>
+
+    <main>
+        <section class="banner">
+            <ul id="adaptive" class="cs-hidden">
+                <li class="item-a">
+                    <img src="assets/img/baner1.png" alt="">
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="popular section bd-container" id="popular">
+            <div class="popular__content">
+                <div class="titles">
+                    <span class="section-subtitle">aproveite</span>
+                    <h1 class="section-title">Os mais populares</h1>
+                </div>
+
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/caoesenhor-removebg-preview.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>A CARA DO DONO <span>unisex</span></h3>
+                                <p>R$ 80,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+
+                        <div class="discount"> 15%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/bff-removebg-preview.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>BFF <span>unisex</span></h3>
+                                <p>R$ 70,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/chuck-removebg-preview.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>CHUCK DOG <span>unisex</span></h3>
+                                <p>R$ 100,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/SALSICNHA-removebg-preview.png" alt="shoe feminino">
+                           
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>HOT DOG <span>UNISEX</span></h3>
+                                <p>R$ 90,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="more">
+                    <a href="#">ver mais</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="more__shoes section bd-container" id="category">
+            <div class="titles">
+                <span class="section-subtitle">separamos por</span>
+                <h1 class="section-title">Categorias</h1>
+            </div>
+
+            <div class="more__content">
+                <div class="card__more card__more__men">
+                    <img src="assets/img/cachorro3.png" alt="men">
+                    <div class="card__more__content">
+                        <h2>cachorros</h2>
+                    </div>
+                </div>
+
+                <div class="card__more card__more__women">
+                    <img src="assets/img/gato.png" alt="women">
+                    <div class="card__more__content">
+                        <h2>gatos</h2>
+                    </div>
+                </div>
+
+                <div class="card__more card__more__kids">
+                    <img src="assets/img/rato1.png" alt="infantil">
+                    <div class="card__more__content">
+                        <h2>roedores</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bd-container" id="launch">
+            <div class="titles">
+                <span class="section-subtitle">confira nossas</span>
+                <h1 class="section-title">Fantasias</h1>
+            </div>
+            <div class="gallery">
+                <div class="gallery__list">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/chapeuzinho-removebg-preview.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>CHAPEUZINHO VERMELHO</h1>
+                                <span>CACHORRO</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 135,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="gallery__list__right">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/SALSICNHA-removebg-preview.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>HOT DOG</h1>
+                                <span>CACHORRO</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 90,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/CORINGA-removebg-preview.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>CORINGA</h1>
+                                <span>CACHORRO</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 90,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/catpirata-removebg-preview.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>PIRATA</h1>
+                                <span>GATO</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 80,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/ratobruxo-removebg-preview.png" alt="">
+                            
+                            
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>BRUXO</h1>
+                                <span>ROEDORES</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 50,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section optin">
+            <div class="optin__content">
+                <h1>Quer 20% de desconto?</h1>
+                <p>Informe seu melhor e-mail abaixo e receba um cupom de 20% de desconto para sua primeira compra!</p>
+                <form action="">
+                    <input type="text" placeholder="Informe sem melhor e-mail">
+                    <button class="btn">QUERO MEU DESCONTO</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="popular section bd-container" id="collection">
+            <div class="titles">
+                <span class="section-subtitle">veja também nossos</span>
+                <h1 class="section-title">Acessórios</h1>
+            </div>
+            <div class="popular__content">
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/gravata-removebg-preview.png" alt="gravata de cachorro">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>GRAVATA BORBOLETA<span></span></h3>
+                                <p>R$ 20,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="discount"> 15%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/fraano1-removebg-preview.png" alt="frango de borracha">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                              
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                               
+                            </div>
+                       
+                            <div class="card__desc">
+                                <h3>FRANGO DE BORRACHA <span></span></h3>
+                                <p>R$ 10,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/BANDANATIME-removebg-preview..png" alt="bandana de cachorro">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>BANDANA DE TIME<span></span></h3>
+                                <p>R$ 20,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/COLEIRADGATO-removebg-preview.png" alt="coleira de gato">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>COLEIRA PARA GATOS <span></span></h3>
+                                <p>R$ 30,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/roda-removebg-preview.png" alt="roda de hamster">
+                            
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>RODA DE HAMSTER <span></span></h3>
+                                <p>R$ 30,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/POTE-removebg-preview.png" alt="pote de ração">
+                            
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">AZ</div>
+                                <div class="number numberOff">AM</div>
+                                <div class="number">RS</div>
+                                <div class="number">BC</div>
+                                <div class="number">PT</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>POTE DE RAÇÃO<span></span></h3>
+                                <p>R$ 35,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/BIFE-removebg-preview.png" alt="bife de borracha">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">PP</div>
+                                <div class="number numberOff">P</div>
+                                <div class="number">M</div>
+                                <div class="number">G</div>
+                                <div class="number">GG</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>BIFE DE BORRACHA <span></span></h3>
+                                <p>R$ 10,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/brqdgato-removebg-preview.png" alt="binquedo para gato">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">AZ</div>
+                                <div class="number numberOff">AM</div>
+                                <div class="number">RS</div>
+                                <div class="number">BC</div>
+                                <div class="number">PT</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>BRINQUEDO PARA GATO<span></span></h3>
+                                <p>R$ 25,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="more">
+                    <a href="#">Veja mais</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="optin section">
+            <div class="optin__content">
+                <h2>Receba as novidade da <a href="#" class="logo">PetWear<span>.</span></a></h2>
+                <p>Cadastre-se e seja um dos primeriros a saber de todas as novidades e ofertas.</p>
+                <form action="">
+                    <input type="text" placeholder="Informe sem melhor e-mail">
+                    <button class="btn">RECEBER NOVIDADES</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="menu__footer section bd-container">
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Popular</h2>
+                </a>
+                <a href="#">Roupa 1</a>
+                <a href="#">Roupa 2</a>
+                <a href="#">Roupa 3</a>
+                <a href="#">Roupa 4</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Categoria</h2>
+                </a>
+                <a href="#">Cachorros</a>
+                <a href="#">Gatos</a>
+                <a href="#">Roedores</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Fantasias</h2>
+                </a>
+                <a href="#">Fantasia 1</a>
+                <a href="#">Fantasia 2</a>
+                <a href="#">Fantasia 3</a>
+                <a href="#">Fantasia 4</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <h2>Pagamento Seguro</h2>
+                <div class="cards">
+                    <img src="assets/img/Cads/amex.png" alt="">
+                    <img src="assets/img/Cads/aura.png" alt="">
+                    <img src="assets/img/Cads/dinners.png" alt="">
+                    <img src="assets/img/Cads/discover.png" alt="">
+                    <img src="assets/img/Cads/elo.png" alt="">
+                    <img src="assets/img/Cads/hiper.png" alt="">
+                    <img src="assets/img/Cads/jcb.png" alt="">
+                    <img src="assets/img/Cads/mastercard.png" alt="">
+                    <img src="assets/img/Cads/visa.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content bd-container">
+            <h1><a href="#" class="logo">PetWear<span>.</span></a></h1>
+            <p>É um Front End de um e-commerce</p>
+            <p>*Todas as imagens utilizadas nesse projeto tem seus diretios autorais, não podendo ser usado em um
+                projeto real.</p>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/main.js"></script>
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+         <!-- js -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>
